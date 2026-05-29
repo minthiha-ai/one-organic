@@ -1,0 +1,6 @@
+{
+  "name": "One Organic",
+  "description": "Premium organic coconut-derived products for a conscious and sustainable lifestyle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
