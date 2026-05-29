@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Leaf, ShieldAlert, Award, FileText, CheckCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 import { TEAM_MEMBERS } from '../data';
+import harvestingCoconutsImg from '../../assets/harvesting_coconuts_1780048091931.png';
 
 export default function AboutView() {
   const [activeTab, setActiveTab] = useState<'mission' | 'soil' | 'social'>('mission');
@@ -49,8 +50,7 @@ export default function AboutView() {
                 <img
                   alt="Harvesting organic fresh coconuts"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWF2PizZg7D_k8x8Sj7XN_rGst9E8nIDunV6Bf_L-U8_R_iVAnTzXux9pG7_uK90Xb6uX7E_VpY8M"
-                  referrerPolicy="no-referrer"
+                  src={harvestingCoconutsImg}
                 />
               </div>
             </div>
